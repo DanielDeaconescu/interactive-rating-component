@@ -30,6 +30,17 @@ body {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-state-element-inner {
+  background: var(--neutral-dark-blue);
+  max-width: 412px;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
   position: absolute;
 }
 
@@ -117,6 +128,7 @@ body {
 
 .thankyou-state-element {
   background-color: var(--neutral-dark-blue);
+  /* background-color: pink; */
   width: 412px;
   border-radius: 20px;
   display: flex;

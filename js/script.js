@@ -5,7 +5,7 @@
 const allRatings = document.querySelectorAll(".circle");
 const allInnerRatings = document.querySelectorAll(".rating");
 const submitButton = document.querySelector(".rating-state-submit");
-const ratingStateEl = document.querySelector(".rating-state-element");
+const ratingStateEl = document.querySelector(".rating-state-element-inner");
 const thankYouStateEl = document.querySelector(".thankyou-state-element");
 const thankYouStatement = document.querySelector(".thankyou-selection");
 
